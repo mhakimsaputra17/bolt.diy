@@ -41,6 +41,7 @@ export default class OpenAIProvider extends BaseProvider {
 
     const openai = createOpenAI({
       apiKey,
+      baseURL: 'https://models.inference.ai.azure.com',
     });
 
     return openai(model);

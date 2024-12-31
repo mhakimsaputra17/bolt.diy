@@ -31,7 +31,7 @@ export default class OpenAIProvider extends BaseProvider {
       apiKeys,
       providerSettings: providerSettings?.[this.name],
       serverEnv: serverEnv as any,
-      defaultBaseUrlKey: '',
+      defaultBaseUrlKey: 'https://models.inference.ai.azure.com',
       defaultApiTokenKey: 'OPENAI_API_KEY',
     });
 
